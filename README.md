@@ -1,14 +1,9 @@
 <html>
 <head>
     <title>Frontend Developer</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+        
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Indie Flower', cursive;
-        }
-    </style>
 </head>
 <body class="bg-white text-black p-8">
     <div class="max-w-4xl mx-auto border border-black p-4">
