@@ -1,98 +1,58 @@
-<html>
-<head>
-    <title>Frontend Developer</title>
-        
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        body {
-            font-family: 'Indie Flower', cursive;
-        }
-    </style>
+# Nepal Tourism Website
+This repository contains the source code for the Nepal Tourism website. The project is built using PHP, Hack, and HTML, with a focus on providing detailed information about tourism in Nepal.
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-</head>
-<body class="bg-white text-black p-8">
-    <div class="max-w-4xl mx-auto border border-black p-4">
-        <header class="flex justify-between items-center mb-8">
-            <div class="flex items-center">
-                <div class="w-8 h-8 bg-black mr-2"></div>
-                <span>your name</span>
-            </div>
-            <nav>
-                <a href="#" class="mr-4">Home</a>
-                <a href="#" class="mr-4">Projects</a>
-                <a href="#" class="mr-4">Articles</a>
-                <a href="#">Contact</a>
-            </nav>
-        </header>
-        <main>
-            <div class="text-center mb-8">
-                <h1 class="text-4xl mb-2">Frontend Developer</h1>
-                <p>html only with proper layout, no styling</p>
-            </div>
-            <div class="grid grid-cols-3 gap-4 mb-8">
-                <div class="border border-black p-4">
-                    <h2 class="text-xl mb-4">Projects</h2>
-                    <ul>
-                        <li>HTML Only Portfolio</li>
-                        <li>Calculator</li>
-                        <li>Quiz App</li>
-                        <li>Countdown Timer</li>
-                        <li>Product Upcoming Page</li>
-                    </ul>
-                </div>
-                <div class="border border-black p-4">
-                    <h2 class="text-xl mb-4">Work Experience</h2>
-                    <div class="mb-4">
-                        <h3>roadmap.sh</h3>
-                        <p>Solved all the frontend projects</p>
-                        <a href="#" class="text-blue-500">Visit my Profile</a>
-                    </div>
-                    <div>
-                        <h3>OpenSource Work</h3>
-                        <p>Contributed to 50 opensource projects. Made my own projects with 200 GitHub Stars.</p>
-                        <a href="#" class="text-blue-500">Visit my GitHub Profile</a>
-                    </div>
-                </div>
-                <div class="border border-black p-4">
-                    <h2 class="text-xl mb-4">Education</h2>
-                    <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</p>
-                    <p>Courses I took:</p>
-                    <ul class="list-disc list-inside">
-                        <li>Object Oriented Programming</li>
-                        <li>Data Structures and Algorithms</li>
-                        <li>Web Engineering</li>
-                        <li>Artificial Intelligence</li>
-                        <li>Human Computer Interaction</li>
-                        <li>Computer Graphics</li>
-                        <li>Database Management Systems</li>
-                        <li>Distributed Database Systems</li>
-                        <li>Discreet Mathematics</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="border-t border-black pt-4">
-                <h2 class="text-xl mb-4">Reviews from my Teachers</h2>
-                <div class="grid grid-cols-3 gap-4">
-                    <div class="border border-black p-4">
-                        <p>John doe was a brilliant student; always stood out with his assignments.</p>
-                        <p>Jane Doe<br>Assistant Professor</p>
-                    </div>
-                    <div class="border border-black p-4">
-                        <p>John doe was a brilliant student; always stood out with his assignments.</p>
-                        <p>Jane Doe<br>Assistant Professor</p>
-                    </div>
-                    <div class="border border-black p-4">
-                        <p>John doe was a brilliant student; always stood out with his assignments.</p>
-                        <p>Jane Doe<br>Assistant Professor</p>
-                    </div>
-                </div>
-            </div>
-        </main>
-        <footer class="text-center mt-8">
-            <p>&copy; all rights reserved 2025</p>
-        </footer>
-    </div>
-</body>
-</html>
+# Table of Contents
+Project Description
+Technologies Used
+Installation
+Usage
+Contributing
+License
+# Project Description
+The Nepal Tourism website aims to offer comprehensive information about various destinations, tours, and contact details for tourists planning to visit Nepal. It includes features such as:
+
+Home Page
+Destinations
+Tours
+Contact Information
+About Us
+User Authentication (Login and Sign Up)
+# Technologies Used
+The project is primarily built using the following technologies:
+
+PHP: 73.7%
+Hack: 24.6%
+HTML: 1.7%
+Tailwind CSS: For styling
+Bootstrap Icons: For icons
+# Installation
+To set up the project locally, follow these steps:
+
+Clone the repository:
+bash
+git clone https://github.com/Niteshcdry/website.git
+Navigate to the project directory:
+bash
+cd website
+Ensure you have PHP installed. You can check by running:
+bash
+php -v
+Start a local PHP server:
+bash
+php -S localhost:8000
+Open your browser and go to http://localhost:8000 to view the website.
+# Usage
+Navigate through the various sections of the website using the navigation bar.
+The mobile menu can be toggled by clicking the menu button.
+Use the login and sign-up buttons for user authentication.
+# Contributing
+Contributions are welcome! To contribute:
+
+Fork the repository.
+Create a new branch (git checkout -b feature/YourFeature).
+Make your changes and commit them (git commit -m 'Add new feature').
+Push to the branch (git push origin feature/YourFeature).
+Open a pull request.
+# License
+This project is licensed under the MIT License.
+
